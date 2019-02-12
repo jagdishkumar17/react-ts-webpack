@@ -29,7 +29,7 @@ export class Stateful extends React.Component<any, any> {
       };
    }
 
-   render() {
+   render():JSX.Element  {
       return (
          <div>
             <Header />
