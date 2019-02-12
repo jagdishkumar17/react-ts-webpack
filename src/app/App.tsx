@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { ForceUpdate } from "./components/ReactJSComponentAPI/ForceUpdate";
+import { LifeCycle } from "./components/LifeCycle/LifeCycle";
 declare let module: any;
 
-ReactDOM.render(<ForceUpdate />,
+ReactDOM.render(<LifeCycle />,
 document.getElementById("root"));
 
 if (module.hot) {
